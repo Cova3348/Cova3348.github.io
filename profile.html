@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF8">
-        <title>Template</title>
-        <!-- Someday I'll use CSS
         <style>
-            
-        </style>
-    -->
+            h1
+            {
+              color: grey;
+              font-size: 40pt;
+            }
+            h2
+            {
+            color: tan;
+            font-size: 32pt;
+            }
+          </style>
+        <meta charset="UTF8">
+        <title>My Profile Page</title>
     </head>
     <body>
+        <h1>Alexis Covarrubias Gonzalez</h1>
+        <section>
+            <img id="mainpic" src="data:image/jpeg;base64,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" alt="Profile Pic" width="200">
+        </section>
+        <section>
+        <h2>Special Interests</h2>
+        <ul>
+            <li>Working Out</li>
+            <li>Watching sports like Soccer, Basketball and Boxing</li>
+            <li>Learning more about my career path</li>
+        </ul>
+        </section>
+        <section>
+            <p>Currently pursuing my passion for Marketing at the University of Northern Colorado, where I am earning a degree in Business Marketing with a minor in Digital Marketing. Throughout my studies I've learned to balance my academics with involvement in Greek Life, and also work my way through college by applying my digital background use to my school's football media team. My love for storytelling through digital platforms, and the use of my own personal equipment, has also allowed me to support my family's businesses by managing their social media pages and creating new and unique content. I'm super eager to bring my passion, skills and knowledge to a career in Digital Marketing or Content Marketing and to learn and grow in this exciting field.</p>
+        </section>
     <section>
         <p>
-            <h1>template page</h1>
             <a href="https://cova3348.github.io/">Back to Home</a>
         </p>
     </section>
