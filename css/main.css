@@ -30,6 +30,5 @@ img {
   filter: none;
 }
 html {
-  margin: auto;
-  display: center;
+  text-align: center;
 }
