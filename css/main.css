@@ -1,12 +1,22 @@
 body{
   background-color: rgb(151, 126, 96);
 }
-h1  {
-      color: black;
-      font-size: 40pt;
-      font-weight: 100;
-      text-decoration: wavy;
+h1 {
+  animation: spin 2s linear infinite;
+  color: black;
+  font-size: 40pt;
+  font-weight: 100;
+  text-decoration: wavy;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 td, th{
   border: 2px solid black;
   padding: 15px;
