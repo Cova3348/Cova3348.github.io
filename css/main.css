@@ -2,14 +2,14 @@ body{
   background-color: rgb(151, 126, 96);
 }
 h1 {
-  animation: spin 2s linear infinite;
+  animation: rotate 2s linear infinite;
   color: black;
   font-size: 40pt;
   font-weight: 100;
   text-decoration: wavy;
 }
 
-@keyframes spin {
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
