@@ -6,8 +6,8 @@
   </head>
   <body>
     <h1>Alexis's Advanced Search-a-nator</h1>
-    <form action="https://www.google.com/search" method="get">
-      <fieldset>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+      <fieldset id="toplevelset">
         <legend>Search Options</legend>
         <label for="searchBox">Search Keywords:</label>
         <input type="text" id="searchBox" name="q">
@@ -29,6 +29,12 @@
           <option value="xls">Excel</option>
           <option value="ppt">PowerPoint</option>
         </select>
+        <fieldset>
+          <div>
+              <input type="checkbox" name="newwindow" value="1" id="checkwindow">
+              <label for="checkwindow">Open Links in New Window</label>
+          </div>
+        </fieldset>
       </fieldset>
       <br>
       <button type="submit">Search</button>
