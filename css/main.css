@@ -50,6 +50,7 @@ text-align: center;
 th{
 background-color: grey;
 font-size: 18px;
+text-align: center;
 }
 h2, h3, h4 {
   color: darkslategray;
@@ -62,5 +63,8 @@ img {
   filter: none;
 }
 html {
+  text-align: center;
+}
+li{
   text-align: center;
 }
